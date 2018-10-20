@@ -1,6 +1,6 @@
 # ChIP-Seq-pipeline
 A pipeline of ChIP-Seq raw data processing and downstream analysis
-## Usage:  sh $0 [options]
+## sh ChIPseq_pipeline.sh -a accession.txt -d -f S -c 5,3 -b -s -p -r -D -C comparison.txt -P -H -g -e
 ###  Options:
     -h --help      display the usage and exit.
     -a --access    necessary file containing SRR number or sample name to be operate. [e.g. accession.txt]
