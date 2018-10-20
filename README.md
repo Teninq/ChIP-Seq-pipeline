@@ -1,6 +1,5 @@
 # ChIP-Seq-pipeline
 A pipeline of ChIP-Seq raw data processing and downstream analysis
-## sh ChIPseq_pipeline.sh -a accession.txt -d -f S -c 5,3 -b -s -p -r -D -C comparison.txt -P -H -g -e
 ###  Options:
     -h --help      display the usage and exit.
     -a --access    necessary file containing SRR number or sample name to be operate. [e.g. accession.txt]
@@ -18,3 +17,6 @@ A pipeline of ChIP-Seq raw data processing and downstream analysis
     -g --graph     transform to bigWig Format for genome browser
     -e --ceas      use ceas to draw peak distribution
     -v --version   display version information and exit.\n"
+
+### Example
+sh ChIPseq_pipeline.sh -a accession.txt -d -f S -c 5,3 -b -s -p -r -D -C comparison.txt -P -H -g -e
