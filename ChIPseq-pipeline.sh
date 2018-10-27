@@ -1,7 +1,7 @@
 #!/bin/bash
 ########################################
 ##! @Author: Chenkai Lv
-##! @Todo: ChIPseq pipeline Download
+##! @Todo: ChIPseq pipeline
 ##! @Updated: 2018.09.28
 ##! @Dep: Shell
 ##! @ChangeLog:
